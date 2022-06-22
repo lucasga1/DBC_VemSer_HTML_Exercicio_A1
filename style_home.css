@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+footer {
+    background-color: red;
+}
+
+/* Navbar */
+.logo {
+    margin: auto;
+}
+
+.img-span {
+    padding: 30px;
+}
+
+
+.logo img {
+    background-color: white;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.logo small {
+    color: white;
+}
+
+.logo nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;    
+}
+
+.logo nav ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.nav-menu {
+    text-align: right;
+    padding: 10px 20px;    
+}
+
+/* Content */
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.main-text {
+    background-color: #333;
+    padding: 20px 10px;
+    color: white;
+}
+
+.main-text p {
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+/* Map */
+.map {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.map h2 {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+iframe {
+    max-width: 400px;
+    max-height: 400px;
+
+}
+
+/* Galery */
+.galery div {
+    display: inline;
+    margin: 30px;
+}
+
+.galery span {
+    margin-left: -105px;
+    color: #333;
+}
+
+.galery, .galery h1 {
+    color: #666;
+    text-align: center;
+    margin: 30px;
+}
+.galery img {
+    margin-bottom: -12px;
+    padding: 35px 10px;
+    border: 1px solid #999;
+    border-radius: 10%;
+
+}
+
+/* Footer */
+
+.nav-footer {
+    padding: 30px 0 0 50px;
+    text-decoration:underline;
+}
+
+.nav-footer nav ul li a {
+    color: white;
+}
+
+.nav-footer li {
+    list-style-type: none;
+    padding: 10px 0;
+    
+}
+address {
+    color: white;
+    padding: 30px 0 30px 50px;
+}

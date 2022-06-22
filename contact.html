@@ -1,68 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - Vem Ser</title>
+    <title>Site do Mario - Contato</title>
+    <link rel="stylesheet" href="./style_contact.css">
 </head>
 
 <body>
 
     <header>
-        <div> 
-            <img width="40" src="./image/cogumelo1.png" alt="logo"><small>Melhor Alunos do VemSer de todos os tempos!!</small>
+        <div class="container">
+
+            <div class="logo">
+                <div class="img-span"><a href=""><img width="60" src="./image/cogumelo1.png" alt="logo"></a>
+                    <small>Melhores alunos do Vemser de todos os tempos!</small>
+                </div>
+                <div class="nav-menu">
+                    <nav>
+                        <ul>
+                            <li><a href="./home.html">Home</a></li>
+                            <li><a href="./about.html">Sobre</a></li>
+                            <li><a href="./contact.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
         </div>
-        
-        <nav>
-            <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="./about.html">Sobre</a></li>
-                <li><a href="./contact.html">Contato</a></li>
-            </ul>
-        </nav>
     </header>
 
     <section>
-        <form>
-            <div>
-                <label for="username">Digite seu nome completo:</label>
-                <input type="text" name="username" placeholder="Nome completo">
+        <div class="container">
+            <h1 class="contato-form">Contato</h1>
+            <div class="form">
+                <form>
+                    <div>
+                        <label for="username">Digite seu nome completo:</label>
+                        <br>
+                        <input type="text" name="username" placeholder="Nome completo">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Digite seu e-mail:</label>
+                        <br>
+                        <input type="email" name="email" placeholder="E-mail">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="motivo-contato">Qual o motivo do contato:</label>
+                        <br>
+                        <select name="motivo-contato" id="motivo-contato">
+                            <option value="M1">HTML é easy demais</option>
+                            <option value="M2">O VemSer é TOP</option>
+                            <option value="M3">Quero ser desenvolvedor</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="text-area">Sua Mensagem</label>
+                        <br>
+                        <textarea name="text-area" id="text-area" cols="30" rows="10"
+                            placeholder="Digite sua mensagem..."></textarea>
+                    </div>
+                    <input class="submit" type="submit" value="salvar">
+                </form>
             </div>
-            <br>
-            <div>
-                <label for="email">Digite seu e-mail:</label>
-                <input type="email" name="email" placeholder="E-mail">
-            </div>
-            <br>
-            <div>
-                <label for="motivo-contato">Qual o motivo do contato:</label>
-                <select name="motivo-contato" id="motivo-contato">
-                    <option value="M1">HTML é easy demais</option>
-                    <option value="M2">O VemSer é TOP</option>
-                    <option value="M3">Quero ser desenvolvedor</option>
-                </select>
-            </div>
-            <br>
-            <div>
-                <label for="text-area">Sua Mensagem</label>
-                <br>
-                <textarea name="text-area" id="text-area" cols="30" rows="10" placeholder="Digite sua mensagem..."></textarea>
-                <input type="submit" value="Salvar">
-            </div>
-        </form>
+        </div>
     </section>
 
     <footer>
-        <nav>
-            <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="./about.html">Sobre</a></li>
-                <li><a href="./contact.html">Contato</a></li>           
-            </ul>
-        </nav>
-    <address>Tv. São José, 455 - Navegantes, Porto Alegre - RS, 90240-200</address>
+        <div class="container">
+            <div class="nav-footer">
+                <nav>
+                    <ul>
+                        <li><a href="./home.html">Home</a></li>
+                        <li><a href="./about.html">Sobre</a></li>
+                        <li><a href="./contact.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <address>Av. Andarai, 531 - Porto Alegre</address>
+        </div>
     </footer>
-    
+
 </body>
+
 </html>

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+footer {
+    background-color: red;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* Navbar */
+.logo {
+    margin: auto;
+}
+
+.img-span {
+    padding-top: 30px;
+}
+
+
+.logo img {
+    background-color: white;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.logo small {
+    color: white;
+}
+
+.logo nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;    
+}
+
+.logo nav ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.nav-menu {
+    text-align: right;
+    padding: 10px 20px;    
+}
+
+/* Footer */
+
+.nav-footer {
+    padding: 30px 0 0 50px;
+    text-decoration:underline;
+}
+
+.nav-footer nav ul li a {
+    color: white;
+}
+
+.nav-footer li {
+    list-style-type: none;
+    padding: 10px 0;
+    
+}
+address {
+    color: white;
+    padding: 30px 0 30px 50px;
+}
+
+/* Form */
+
+.contato-form {
+    text-align: center;
+    color: #333;
+    padding: 30px;
+}
+
+.form {
+    border: 2px solid #999;
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.form input, select, textarea {
+    margin-top: 8px;
+    border-radius: 3px;
+    border: 1.5px solid #333;
+    padding: 3px 5px;
+}
+
+.form label {
+    font-family: 'Roboto', sans-serif;
+}
+
+.submit {
+    background-color: red;
+    color:white ;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form textarea {
+    margin-bottom: 10px;
+}
