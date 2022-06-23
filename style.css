@@ -16,22 +16,30 @@ footer {
 
 /* Navbar */
 .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: auto;
 }
 
 .img-span {
     padding: 30px;
 }
-
+.logo-small{
+    display: flex;
+    align-items: center;
+}
 
 .logo img {
     background-color: white;
     padding: 15px;
+    margin: 15px;
     border-radius: 100%;
 }
 
 .logo small {
     color: white;
+    align-items: center;
 }
 
 .logo nav ul li a {
@@ -43,11 +51,6 @@ footer {
 .logo nav ul li {
     list-style-type: none;
     display: inline;
-}
-
-.nav-menu {
-    text-align: right;
-    padding: 10px 20px;    
 }
 
 /* Content */
